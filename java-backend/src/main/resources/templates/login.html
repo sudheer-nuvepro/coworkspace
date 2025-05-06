@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en", xmlns:th = "http://www.thymeleaf.org">
+
+<head>
+    <title>Spring Security Example </title>
+</head>
+<body>
+<div>
+    <h2>Please Login</h2>
+    <br/>
+</div>
+<div>
+    <h4><a th:href="@{/oauth2/authorization/google}">Login with Google</a></h4>
+    <h4><a th:href="@{/oauth2/authorization/facebook}">Login with Facebook</a></h4>
+</div>
+<div><p>OR</p></div>
+<div align="center">
+<form action="/admin_login" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Submit">
+</form>
+</div>
+</form>
+</body>

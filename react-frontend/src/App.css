@@ -1,0 +1,87 @@
+body {
+  font-family: cursive !important;
+  background-image: url('../public/modern-office-space-interior.jpg');
+  background-size: cover;
+}
+
+.form-card {
+  width: 500px;
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.form-card-signup {
+  width: 70%;
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+th {
+  text-align: center !important;
+}
+
+.form-card-signup.card {
+  background: #00000057;
+  color: white;
+}
+
+.signin {
+  /* background-image: url("https://img.freepik.com/free-vector/technology-background_23-2148126725.jpg?w=740&t=st=1690193815~exp=1690194415~hmac=c480f03eecb08262d0cf229a5870bc1b8958e4d625de56fd5f5ac7bf165cdf71"); */
+  background-size: cover;
+  background-image: url('../public/abstract-blur-hotel-interior.jpg');
+  height: 100vh;
+}
+
+.signin-input,
+button.password-toggle-btn.signin-input.btn.btn-primary {
+  background-color: transparent !important;
+}
+
+.form-card.card {
+  background: #00000057;
+}
+
+.header-image {
+  height: 60px;
+  width: 80px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.workspace-cards.hover-card.card {
+  background: #aba19de8;
+}
+
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.password {
+  position: relative;
+}
+
+.password-toggle-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white !important;
+  border: white !important;
+  color: grey !important;
+}
+
+.workspace-cards {
+  margin: 20px;
+}
+
+.hover-card:hover {
+  border: 1px solid #a19490;
+  box-shadow: 5px 5px 10px #888888;
+}
